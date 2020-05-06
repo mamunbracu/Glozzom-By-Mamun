@@ -1,0 +1,123 @@
+.navbar .nav-item {
+  padding-left: 1em;
+  font-size: 1.2rem; }
+
+.navbar .nav-link {
+  text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/image1.jpeg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/image3.jpeg");
+  background-size: cover; }
+
+#home-icon i {
+  font-size: 50px; }
+
+#getstarted {
+  position: relative;
+  background: url("../img/m1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 350px; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-video {
+  position: relative;
+  background: url("../img/mamun.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 250px; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #home-video .fa {
+    font-size: 3.5rem;
+    color: red; }
+
+#photo-gallery .image img {
+  width: 500px;
+  height: 300px; }
+
+#foot-home {
+  background: #000; }
+
+#about-header {
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px; }
+
+#about-sec img {
+  width: 350px;
+  height: 350px; }
+
+#card-section .fa {
+  font-size: 3rem;
+  padding-bottom: 1rem; }
+
+#myself .social {
+  font-size: 30px; }
+
+#services-page-header {
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px; }
+
+#blog-header {
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  min-height: 250px; }
+
+#contact-header {
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  min-height: 250px; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0em; } }
+
+@media (max-width: 767px) {
+  .carousel-caption h2 {
+    font-size: 36px; }
+  .carousel-item .pb-5 {
+    padding-bottom: 0 !important; } }
+
+@media (max-width: 450px) {
+  #getstarted {
+    min-height: 420px; }
+    #getstarted p {
+      padding: 1rem 0; } }
